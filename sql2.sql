@@ -1,0 +1,1 @@
+update table table1 where table id is not null;
