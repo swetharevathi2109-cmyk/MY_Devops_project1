@@ -34,6 +34,6 @@ print(colfilter.collect())
 df=colfilter.toDF()
 print()
 df.show()
-df.write.format("avro").save("/Users/shweta/Downloads/avrodata")
+df.write.format("avro").save("/Users/shweta/Downloads/avrodata1")
 print('done')
 
