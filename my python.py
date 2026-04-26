@@ -34,6 +34,10 @@ print(colfilter.collect())
 df=colfilter.toDF()
 print()
 df.show()
+<<<<<<< HEAD
 df.write.format("avro").save("/Users/shweta/Downloads/avrodata1")
+=======
+df.write.format("avro").save("/Users/shweta/Downloads/avrodata")
+>>>>>>> c19bf9a... Create my python.py
 print('done')
 
